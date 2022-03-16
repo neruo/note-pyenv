@@ -1,6 +1,6 @@
 # [インストール方法](https://github.com/pyenv/pyenv#installation)
 
-## [Ubuntu/Debian](https://github.com/pyenv/pyenv#basic-github-checkout)
+## [Ubuntu/Debian (bash)](https://github.com/pyenv/pyenv#basic-github-checkout)
 
 1. [事前準備](https://github.com/pyenv/pyenv/wiki#suggested-build-environment)として、次のコマンドをターミナルで実行
 
@@ -14,10 +14,17 @@ libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-d
 2. pyenvのリポジトリをクローン
 
 ```shell
- git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 ```
 
-3. 次のコマンドを実行し、`pyenv`コマンドのパスを通す
+3. （Option）適用するrelease version（例：v2.2.3）にリポジトリを変更
+
+```shell
+cd ~/.pyenv
+git checkout v2.2.2
+```
+
+4. 次のコマンドを実行し、`pyenv`コマンドのパスを通す
 
 ```shell
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
@@ -26,7 +33,7 @@ echo 'eval "$(pyenv init --path)"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-4. ターミナルで`pyenv`コマンドが実行できれば、インストール完了
+5. ターミナルで`pyenv`コマンドが実行できれば、インストール完了
 
 ```code
 pyenv 2.2.3
