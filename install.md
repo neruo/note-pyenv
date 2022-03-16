@@ -1,6 +1,6 @@
 # [インストール方法](https://github.com/pyenv/pyenv#installation)
 
-## Ubuntu/Debian
+## [Ubuntu/Debian](https://github.com/pyenv/pyenv#basic-github-checkout)
 
 1. [事前準備](https://github.com/pyenv/pyenv/wiki#suggested-build-environment)として、次のコマンドをターミナルで実行
 
