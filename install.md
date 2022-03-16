@@ -21,7 +21,7 @@ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 
 ```shell
 cd ~/.pyenv
-git checkout v2.2.2
+git checkout v2.2.3
 ```
 
 4. 次のコマンドを実行し、`pyenv`コマンドのパスを通す
