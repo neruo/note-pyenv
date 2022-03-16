@@ -60,6 +60,6 @@ See `pyenv help <command>' for information on a specific command.
 For full documentation, see: https://github.com/pyenv/pyenv#readme
 ```
 
-## Windows
+## [Windows](https://github.com/pyenv/pyenv#windows)
 
 非対応
